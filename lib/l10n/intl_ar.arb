@@ -1,1 +1,11 @@
-{}
+{
+  "onboarding1Title": "مرحبًا بك في",
+  "onboarding1Subtitle1": "Fruit",
+  "onboarding1Subtitle2": "HUB",
+  "onboarding1Description": "اكتشف تجربة تسوق فريدة مع FruitHUB. استكشف مجموعتنا الواسعة من الفواكه الطازجة الممتازة واحصل على أفضل العروض والجودة العالية.",
+  "onboarding1Skip": "تخط",
+
+  "onboarding2Title": "ابحث وتسوق",
+  "onboarding2Description": "نقدم لك أفضل الفواكه المختارة بعناية. اطلع على التفاصيل والصور والتقييمات لتتأكد من اختيار الفاكهة المثالية.",
+  "onboarding2Start": "ابدأ الآن"
+}

@@ -54,6 +54,81 @@ class S {
   static S? maybeOf(BuildContext context) {
     return Localizations.of<S>(context, S);
   }
+
+  /// `Welcome to`
+  String get onboarding1Title {
+    return Intl.message(
+      'Welcome to',
+      name: 'onboarding1Title',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Fruit`
+  String get onboarding1Subtitle1 {
+    return Intl.message(
+      'Fruit',
+      name: 'onboarding1Subtitle1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `HUB`
+  String get onboarding1Subtitle2 {
+    return Intl.message(
+      'HUB',
+      name: 'onboarding1Subtitle2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Discover a unique shopping experience with FruitHUB. Explore our wide selection of premium fresh fruits and get the best deals and top quality.`
+  String get onboarding1Description {
+    return Intl.message(
+      'Discover a unique shopping experience with FruitHUB. Explore our wide selection of premium fresh fruits and get the best deals and top quality.',
+      name: 'onboarding1Description',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Skip`
+  String get onboarding1Skip {
+    return Intl.message('Skip', name: 'onboarding1Skip', desc: '', args: []);
+  }
+
+  /// `Search and Shop`
+  String get onboarding2Title {
+    return Intl.message(
+      'Search and Shop',
+      name: 'onboarding2Title',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `We bring you the best hand-picked fruits. Check details, photos, and reviews to find your perfect pick.`
+  String get onboarding2Description {
+    return Intl.message(
+      'We bring you the best hand-picked fruits. Check details, photos, and reviews to find your perfect pick.',
+      name: 'onboarding2Description',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Start Now`
+  String get onboarding2Start {
+    return Intl.message(
+      'Start Now',
+      name: 'onboarding2Start',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

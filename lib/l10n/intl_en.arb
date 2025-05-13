@@ -1,1 +1,11 @@
-{}
+{
+  "onboarding1Title": "Welcome to",
+  "onboarding1Subtitle1": "Fruit",
+  "onboarding1Subtitle2": "HUB",
+  "onboarding1Description": "Discover a unique shopping experience with FruitHUB. Explore our wide selection of premium fresh fruits and get the best deals and top quality.",
+  "onboarding1Skip": "Skip",
+
+  "onboarding2Title": "Search and Shop",
+  "onboarding2Description": "We bring you the best hand-picked fruits. Check details, photos, and reviews to find your perfect pick.",
+  "onboarding2Start": "Start Now"
+}

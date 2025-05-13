@@ -8,6 +8,6 @@ class OnbordingView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(body: OnbordingViewBody());
+    return const Scaffold(body: SafeArea(child: OnbordingViewBody()));
   }
 }
