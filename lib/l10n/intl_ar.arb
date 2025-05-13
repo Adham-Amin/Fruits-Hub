@@ -7,5 +7,42 @@
 
   "onboarding2Title": "ابحث وتسوق",
   "onboarding2Description": "نقدم لك أفضل الفواكه المختارة بعناية. اطلع على التفاصيل والصور والتقييمات لتتأكد من اختيار الفاكهة المثالية.",
-  "onboarding2Start": "ابدأ الآن"
+  "onboarding2Start": "ابدأ الآن",
+
+  "loginTitle": "تسجيل دخول",
+  "email": "البريد الإلكتروني",
+  "password": "كلمة المرور",
+  "forgotPassword": "نسيت كلمة المرور؟",
+  "loginButton": "تسجيل دخول",
+  "noAccount": "لا تملك حساب؟",
+  "createAccount": "قم بانشاء حساب",
+  "or": "أو",
+  "loginWithGoogle": "تسجيل بواسطة جوجل",
+  "loginWithApple": "تسجيل بواسطة أبل",
+  "loginWithFacebook": "تسجيل بواسطة فيسبوك",
+
+  "signupTitle": "حساب جديد",
+  "name": "الاسم الكامل",
+  "confirmPassword": "تأكيد كلمة المرور",
+  "agreeToTerms": "أوافق على الشروط والأحكام",
+  "signupButton": "انشاء حساب جديد",
+  "alreadyHaveAccount": "تمتلك حساب بالفعل؟ ",
+  "login": "تسجيل دخول",
+
+  "resetPasswordTitle": "استعادة كلمة المرور",
+  "enterPhoneToReset": "لا تقلق ، ما عليك سوى كتابة رقم هاتفك وسنرسل رمز التحقق.",
+  "sendCode": "إرسال رمز التحقق",
+
+  "verifyCodeTitle": "التحقق من الرمز",
+  "codeSentTo": "تم إرسال الرمز إلى",
+  "verifyCodeButton": "تحقق من الرمز",
+  "resendCode": "إعادة إرسال الرمز",
+
+  "newPasswordTitle": "كلمة مرور جديدة",
+  "enterNewPassword": "قم بإنشاء كلمة مرور جديدة لتسجيل الدخول",
+  "newPassword": "كلمة المرور الجديدة",
+  "confirmNewPassword": "تأكيد كلمة المرور الجديدة",
+  "setNewPassword": "إنشاء كلمة مرور جديدة",
+
+  "passwordChangedSuccess": "تم تغيير كلمة المرور بنجاح"
 }

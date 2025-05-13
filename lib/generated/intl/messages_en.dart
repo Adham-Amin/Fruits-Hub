@@ -22,6 +22,44 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+    "agreeToTerms": MessageLookupByLibrary.simpleMessage(
+      "I agree to the Terms and Conditions",
+    ),
+    "alreadyHaveAccount": MessageLookupByLibrary.simpleMessage(
+      "Already have an account?",
+    ),
+    "codeSentTo": MessageLookupByLibrary.simpleMessage("The code was sent to"),
+    "confirmNewPassword": MessageLookupByLibrary.simpleMessage(
+      "Confirm New Password",
+    ),
+    "confirmPassword": MessageLookupByLibrary.simpleMessage("Confirm Password"),
+    "createAccount": MessageLookupByLibrary.simpleMessage("Create an account"),
+    "email": MessageLookupByLibrary.simpleMessage("Email"),
+    "enterNewPassword": MessageLookupByLibrary.simpleMessage(
+      "Create a new password to log in",
+    ),
+    "enterPhoneToReset": MessageLookupByLibrary.simpleMessage(
+      "Don’t worry, just enter your phone number and we’ll send you a verification code.",
+    ),
+    "forgotPassword": MessageLookupByLibrary.simpleMessage(
+      "Forgot your password?",
+    ),
+    "login": MessageLookupByLibrary.simpleMessage("Login"),
+    "loginButton": MessageLookupByLibrary.simpleMessage("Login"),
+    "loginTitle": MessageLookupByLibrary.simpleMessage("Login"),
+    "loginWithApple": MessageLookupByLibrary.simpleMessage("Login with Apple"),
+    "loginWithFacebook": MessageLookupByLibrary.simpleMessage(
+      "Login with Facebook",
+    ),
+    "loginWithGoogle": MessageLookupByLibrary.simpleMessage(
+      "Login with Google",
+    ),
+    "name": MessageLookupByLibrary.simpleMessage("Full Name"),
+    "newPassword": MessageLookupByLibrary.simpleMessage("New Password"),
+    "newPasswordTitle": MessageLookupByLibrary.simpleMessage("New Password"),
+    "noAccount": MessageLookupByLibrary.simpleMessage(
+      "Don\'t have an account?",
+    ),
     "onboarding1Description": MessageLookupByLibrary.simpleMessage(
       "Discover a unique shopping experience with FruitHUB. Explore our wide selection of premium fresh fruits and get the best deals and top quality.",
     ),
@@ -34,5 +72,20 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "onboarding2Start": MessageLookupByLibrary.simpleMessage("Start Now"),
     "onboarding2Title": MessageLookupByLibrary.simpleMessage("Search and Shop"),
+    "or": MessageLookupByLibrary.simpleMessage("Or"),
+    "password": MessageLookupByLibrary.simpleMessage("Password"),
+    "passwordChangedSuccess": MessageLookupByLibrary.simpleMessage(
+      "Password changed successfully",
+    ),
+    "resendCode": MessageLookupByLibrary.simpleMessage("Resend Code"),
+    "resetPasswordTitle": MessageLookupByLibrary.simpleMessage(
+      "Password Recovery",
+    ),
+    "sendCode": MessageLookupByLibrary.simpleMessage("Send Verification Code"),
+    "setNewPassword": MessageLookupByLibrary.simpleMessage("Set New Password"),
+    "signupButton": MessageLookupByLibrary.simpleMessage("Create New Account"),
+    "signupTitle": MessageLookupByLibrary.simpleMessage("New Account"),
+    "verifyCodeButton": MessageLookupByLibrary.simpleMessage("Verify Code"),
+    "verifyCodeTitle": MessageLookupByLibrary.simpleMessage("Verify Code"),
   };
 }

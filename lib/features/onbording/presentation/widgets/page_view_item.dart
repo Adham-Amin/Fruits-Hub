@@ -80,13 +80,13 @@ class PageViewItem extends StatelessWidget {
                   ),
                   TextSpan(
                     text: ' ${S.of(context).onboarding1Subtitle1}',
-                    style: AppStyles.textSemiBold13(
+                    style: AppStyles.textBold23(
                       context,
                     ).copyWith(color: AppColors.primary),
                   ),
                   TextSpan(
                     text: S.of(context).onboarding1Subtitle2,
-                    style: AppStyles.textSemiBold13(
+                    style: AppStyles.textBold23(
                       context,
                     ).copyWith(color: AppColors.orange),
                   ),

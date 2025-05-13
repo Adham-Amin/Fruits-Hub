@@ -129,6 +129,271 @@ class S {
       args: [],
     );
   }
+
+  /// `Login`
+  String get loginTitle {
+    return Intl.message('Login', name: 'loginTitle', desc: '', args: []);
+  }
+
+  /// `Email`
+  String get email {
+    return Intl.message('Email', name: 'email', desc: '', args: []);
+  }
+
+  /// `Password`
+  String get password {
+    return Intl.message('Password', name: 'password', desc: '', args: []);
+  }
+
+  /// `Forgot your password?`
+  String get forgotPassword {
+    return Intl.message(
+      'Forgot your password?',
+      name: 'forgotPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Login`
+  String get loginButton {
+    return Intl.message('Login', name: 'loginButton', desc: '', args: []);
+  }
+
+  /// `Don't have an account?`
+  String get noAccount {
+    return Intl.message(
+      'Don\'t have an account?',
+      name: 'noAccount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Create an account`
+  String get createAccount {
+    return Intl.message(
+      'Create an account',
+      name: 'createAccount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Or`
+  String get or {
+    return Intl.message('Or', name: 'or', desc: '', args: []);
+  }
+
+  /// `Login with Google`
+  String get loginWithGoogle {
+    return Intl.message(
+      'Login with Google',
+      name: 'loginWithGoogle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Login with Apple`
+  String get loginWithApple {
+    return Intl.message(
+      'Login with Apple',
+      name: 'loginWithApple',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Login with Facebook`
+  String get loginWithFacebook {
+    return Intl.message(
+      'Login with Facebook',
+      name: 'loginWithFacebook',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `New Account`
+  String get signupTitle {
+    return Intl.message('New Account', name: 'signupTitle', desc: '', args: []);
+  }
+
+  /// `Full Name`
+  String get name {
+    return Intl.message('Full Name', name: 'name', desc: '', args: []);
+  }
+
+  /// `Confirm Password`
+  String get confirmPassword {
+    return Intl.message(
+      'Confirm Password',
+      name: 'confirmPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `I agree to the Terms and Conditions`
+  String get agreeToTerms {
+    return Intl.message(
+      'I agree to the Terms and Conditions',
+      name: 'agreeToTerms',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Create New Account`
+  String get signupButton {
+    return Intl.message(
+      'Create New Account',
+      name: 'signupButton',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Already have an account?`
+  String get alreadyHaveAccount {
+    return Intl.message(
+      'Already have an account?',
+      name: 'alreadyHaveAccount',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Login`
+  String get login {
+    return Intl.message('Login', name: 'login', desc: '', args: []);
+  }
+
+  /// `Password Recovery`
+  String get resetPasswordTitle {
+    return Intl.message(
+      'Password Recovery',
+      name: 'resetPasswordTitle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Don’t worry, just enter your phone number and we’ll send you a verification code.`
+  String get enterPhoneToReset {
+    return Intl.message(
+      'Don’t worry, just enter your phone number and we’ll send you a verification code.',
+      name: 'enterPhoneToReset',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Send Verification Code`
+  String get sendCode {
+    return Intl.message(
+      'Send Verification Code',
+      name: 'sendCode',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Verify Code`
+  String get verifyCodeTitle {
+    return Intl.message(
+      'Verify Code',
+      name: 'verifyCodeTitle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `The code was sent to`
+  String get codeSentTo {
+    return Intl.message(
+      'The code was sent to',
+      name: 'codeSentTo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Verify Code`
+  String get verifyCodeButton {
+    return Intl.message(
+      'Verify Code',
+      name: 'verifyCodeButton',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Resend Code`
+  String get resendCode {
+    return Intl.message('Resend Code', name: 'resendCode', desc: '', args: []);
+  }
+
+  /// `New Password`
+  String get newPasswordTitle {
+    return Intl.message(
+      'New Password',
+      name: 'newPasswordTitle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Create a new password to log in`
+  String get enterNewPassword {
+    return Intl.message(
+      'Create a new password to log in',
+      name: 'enterNewPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `New Password`
+  String get newPassword {
+    return Intl.message(
+      'New Password',
+      name: 'newPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Confirm New Password`
+  String get confirmNewPassword {
+    return Intl.message(
+      'Confirm New Password',
+      name: 'confirmNewPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Set New Password`
+  String get setNewPassword {
+    return Intl.message(
+      'Set New Password',
+      name: 'setNewPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Password changed successfully`
+  String get passwordChangedSuccess {
+    return Intl.message(
+      'Password changed successfully',
+      name: 'passwordChangedSuccess',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

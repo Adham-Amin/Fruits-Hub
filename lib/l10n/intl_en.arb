@@ -7,5 +7,42 @@
 
   "onboarding2Title": "Search and Shop",
   "onboarding2Description": "We bring you the best hand-picked fruits. Check details, photos, and reviews to find your perfect pick.",
-  "onboarding2Start": "Start Now"
+  "onboarding2Start": "Start Now",
+
+  "loginTitle": "Login",
+  "email": "Email",
+  "password": "Password",
+  "forgotPassword": "Forgot your password?",
+  "loginButton": "Login",
+  "noAccount": "Don't have an account?",
+  "createAccount": "Create an account",
+  "or": "Or",
+  "loginWithGoogle": "Login with Google",
+  "loginWithApple": "Login with Apple",
+  "loginWithFacebook": "Login with Facebook",
+
+  "signupTitle": "New Account",
+  "name": "Full Name",
+  "confirmPassword": "Confirm Password",
+  "agreeToTerms": "I agree to the Terms and Conditions",
+  "signupButton": "Create New Account",
+  "alreadyHaveAccount": "Already have an account?",
+  "login": "Login",
+
+  "resetPasswordTitle": "Password Recovery",
+  "enterPhoneToReset": "Don’t worry, just enter your phone number and we’ll send you a verification code.",
+  "sendCode": "Send Verification Code",
+
+  "verifyCodeTitle": "Verify Code",
+  "codeSentTo": "The code was sent to",
+  "verifyCodeButton": "Verify Code",
+  "resendCode": "Resend Code",
+
+  "newPasswordTitle": "New Password",
+  "enterNewPassword": "Create a new password to log in",
+  "newPassword": "New Password",
+  "confirmNewPassword": "Confirm New Password",
+  "setNewPassword": "Set New Password",
+
+  "passwordChangedSuccess": "Password changed successfully"
 }

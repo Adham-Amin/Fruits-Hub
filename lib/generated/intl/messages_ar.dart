@@ -22,6 +22,42 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+    "agreeToTerms": MessageLookupByLibrary.simpleMessage(
+      "أوافق على الشروط والأحكام",
+    ),
+    "alreadyHaveAccount": MessageLookupByLibrary.simpleMessage(
+      "تمتلك حساب بالفعل؟ ",
+    ),
+    "codeSentTo": MessageLookupByLibrary.simpleMessage("تم إرسال الرمز إلى"),
+    "confirmNewPassword": MessageLookupByLibrary.simpleMessage(
+      "تأكيد كلمة المرور الجديدة",
+    ),
+    "confirmPassword": MessageLookupByLibrary.simpleMessage(
+      "تأكيد كلمة المرور",
+    ),
+    "createAccount": MessageLookupByLibrary.simpleMessage("قم بانشاء حساب"),
+    "email": MessageLookupByLibrary.simpleMessage("البريد الإلكتروني"),
+    "enterNewPassword": MessageLookupByLibrary.simpleMessage(
+      "قم بإنشاء كلمة مرور جديدة لتسجيل الدخول",
+    ),
+    "enterPhoneToReset": MessageLookupByLibrary.simpleMessage(
+      "لا تقلق ، ما عليك سوى كتابة رقم هاتفك وسنرسل رمز التحقق.",
+    ),
+    "forgotPassword": MessageLookupByLibrary.simpleMessage("نسيت كلمة المرور؟"),
+    "login": MessageLookupByLibrary.simpleMessage("تسجيل دخول"),
+    "loginButton": MessageLookupByLibrary.simpleMessage("تسجيل دخول"),
+    "loginTitle": MessageLookupByLibrary.simpleMessage("تسجيل دخول"),
+    "loginWithApple": MessageLookupByLibrary.simpleMessage("تسجيل بواسطة أبل"),
+    "loginWithFacebook": MessageLookupByLibrary.simpleMessage(
+      "تسجيل بواسطة فيسبوك",
+    ),
+    "loginWithGoogle": MessageLookupByLibrary.simpleMessage(
+      "تسجيل بواسطة جوجل",
+    ),
+    "name": MessageLookupByLibrary.simpleMessage("الاسم الكامل"),
+    "newPassword": MessageLookupByLibrary.simpleMessage("كلمة المرور الجديدة"),
+    "newPasswordTitle": MessageLookupByLibrary.simpleMessage("كلمة مرور جديدة"),
+    "noAccount": MessageLookupByLibrary.simpleMessage("لا تملك حساب؟"),
     "onboarding1Description": MessageLookupByLibrary.simpleMessage(
       "اكتشف تجربة تسوق فريدة مع FruitHUB. استكشف مجموعتنا الواسعة من الفواكه الطازجة الممتازة واحصل على أفضل العروض والجودة العالية.",
     ),
@@ -34,5 +70,22 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "onboarding2Start": MessageLookupByLibrary.simpleMessage("ابدأ الآن"),
     "onboarding2Title": MessageLookupByLibrary.simpleMessage("ابحث وتسوق"),
+    "or": MessageLookupByLibrary.simpleMessage("أو"),
+    "password": MessageLookupByLibrary.simpleMessage("كلمة المرور"),
+    "passwordChangedSuccess": MessageLookupByLibrary.simpleMessage(
+      "تم تغيير كلمة المرور بنجاح",
+    ),
+    "resendCode": MessageLookupByLibrary.simpleMessage("إعادة إرسال الرمز"),
+    "resetPasswordTitle": MessageLookupByLibrary.simpleMessage(
+      "استعادة كلمة المرور",
+    ),
+    "sendCode": MessageLookupByLibrary.simpleMessage("إرسال رمز التحقق"),
+    "setNewPassword": MessageLookupByLibrary.simpleMessage(
+      "إنشاء كلمة مرور جديدة",
+    ),
+    "signupButton": MessageLookupByLibrary.simpleMessage("انشاء حساب جديد"),
+    "signupTitle": MessageLookupByLibrary.simpleMessage("حساب جديد"),
+    "verifyCodeButton": MessageLookupByLibrary.simpleMessage("تحقق من الرمز"),
+    "verifyCodeTitle": MessageLookupByLibrary.simpleMessage("التحقق من الرمز"),
   };
 }
