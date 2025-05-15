@@ -235,10 +235,20 @@ class S {
     );
   }
 
-  /// `I agree to the Terms and Conditions`
+  /// `By creating an account, you agree to`
+  String get conditions {
+    return Intl.message(
+      'By creating an account, you agree to',
+      name: 'conditions',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `I agree to our Terms and Conditions`
   String get agreeToTerms {
     return Intl.message(
-      'I agree to the Terms and Conditions',
+      'I agree to our Terms and Conditions',
       name: 'agreeToTerms',
       desc: '',
       args: [],

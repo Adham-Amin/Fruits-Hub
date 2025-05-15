@@ -23,12 +23,15 @@ class MessageLookup extends MessageLookupByLibrary {
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
     "agreeToTerms": MessageLookupByLibrary.simpleMessage(
-      "أوافق على الشروط والأحكام",
+      "أوافق على الشروط والأحكام الخاصة بنا",
     ),
     "alreadyHaveAccount": MessageLookupByLibrary.simpleMessage(
       "تمتلك حساب بالفعل؟ ",
     ),
     "codeSentTo": MessageLookupByLibrary.simpleMessage("تم إرسال الرمز إلى"),
+    "conditions": MessageLookupByLibrary.simpleMessage(
+      "من خلال إنشاء حساب ، فإنك توافق على",
+    ),
     "confirmNewPassword": MessageLookupByLibrary.simpleMessage(
       "تأكيد كلمة المرور الجديدة",
     ),

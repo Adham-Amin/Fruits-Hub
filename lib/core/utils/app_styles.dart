@@ -6,6 +6,16 @@ abstract class AppStyles {
     fontWeight: FontWeight.w600,
   );
 
+  static TextStyle textSemiBold16(context) => TextStyle(
+    fontSize: getResponsiveSize(context, size: 16),
+    fontWeight: FontWeight.w600,
+  );
+
+  static TextStyle textSemiBold11(context) => TextStyle(
+    fontSize: getResponsiveSize(context, size: 11),
+    fontWeight: FontWeight.w600,
+  );
+
   static TextStyle textBold23(context) => TextStyle(
     fontSize: getResponsiveSize(context, size: 23),
     fontWeight: FontWeight.w700,
@@ -16,10 +26,32 @@ abstract class AppStyles {
     fontWeight: FontWeight.w400,
   );
 
+  static TextStyle textRegular13(context) => TextStyle(
+    fontSize: getResponsiveSize(context, size: 13),
+    fontWeight: FontWeight.w400,
+  );
+
+  static TextStyle textRegular16(context) => TextStyle(
+    fontSize: getResponsiveSize(context, size: 16),
+    fontWeight: FontWeight.w400,
+  );
+
   static TextStyle textBold16(context) => TextStyle(
     fontSize: getResponsiveSize(context, size: 16),
     fontWeight: FontWeight.w700,
   );
+
+  static TextStyle textBold13(context) => TextStyle(
+    fontSize: getResponsiveSize(context, size: 13),
+    fontWeight: FontWeight.w700,
+  );
+
+  static TextStyle textBold19(context) => TextStyle(
+    fontSize: getResponsiveSize(context, size: 19),
+    fontWeight: FontWeight.w700,
+  );
+
+
 }
 
 double getScaleFactor(BuildContext context) {
