@@ -40,6 +40,9 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "createAccount": MessageLookupByLibrary.simpleMessage("قم بانشاء حساب"),
     "email": MessageLookupByLibrary.simpleMessage("البريد الإلكتروني"),
+    "emailAlreadyInUse": MessageLookupByLibrary.simpleMessage(
+      "يوجد حساب مسجل بهذا البريد الإلكتروني بالفعل.",
+    ),
     "enterNewPassword": MessageLookupByLibrary.simpleMessage(
       "قم بإنشاء كلمة مرور جديدة لتسجيل الدخول",
     ),
@@ -58,6 +61,9 @@ class MessageLookup extends MessageLookupByLibrary {
       "تسجيل بواسطة جوجل",
     ),
     "name": MessageLookupByLibrary.simpleMessage("الاسم الكامل"),
+    "networkFailed": MessageLookupByLibrary.simpleMessage(
+      "لا يوجد اتصال بالإنترنت.",
+    ),
     "newPassword": MessageLookupByLibrary.simpleMessage("كلمة المرور الجديدة"),
     "newPasswordTitle": MessageLookupByLibrary.simpleMessage("كلمة مرور جديدة"),
     "noAccount": MessageLookupByLibrary.simpleMessage("لا تملك حساب؟"),
@@ -78,6 +84,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "passwordChangedSuccess": MessageLookupByLibrary.simpleMessage(
       "تم تغيير كلمة المرور بنجاح",
     ),
+    "required": MessageLookupByLibrary.simpleMessage("يرجى ادخال"),
     "resendCode": MessageLookupByLibrary.simpleMessage("إعادة إرسال الرمز"),
     "resetPasswordTitle": MessageLookupByLibrary.simpleMessage(
       "استعادة كلمة المرور",
@@ -88,7 +95,13 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "signupButton": MessageLookupByLibrary.simpleMessage("انشاء حساب جديد"),
     "signupTitle": MessageLookupByLibrary.simpleMessage("حساب جديد"),
+    "somethingWentWrong": MessageLookupByLibrary.simpleMessage(
+      "حدث خطأ ما، يرجى المحاولة لاحقًا.",
+    ),
     "verifyCodeButton": MessageLookupByLibrary.simpleMessage("تحقق من الرمز"),
     "verifyCodeTitle": MessageLookupByLibrary.simpleMessage("التحقق من الرمز"),
+    "weakPassword": MessageLookupByLibrary.simpleMessage(
+      "كلمة المرور ضعيفة جدًا.",
+    ),
   };
 }

@@ -45,5 +45,12 @@
   "confirmNewPassword": "تأكيد كلمة المرور الجديدة",
   "setNewPassword": "إنشاء كلمة مرور جديدة",
 
-  "passwordChangedSuccess": "تم تغيير كلمة المرور بنجاح"
+  "passwordChangedSuccess": "تم تغيير كلمة المرور بنجاح",
+
+  "weakPassword": "كلمة المرور ضعيفة جدًا.",
+  "emailAlreadyInUse": "يوجد حساب مسجل بهذا البريد الإلكتروني بالفعل.",
+  "networkFailed": "لا يوجد اتصال بالإنترنت.",
+  "somethingWentWrong": "حدث خطأ ما، يرجى المحاولة لاحقًا.",
+  "required": "يرجى ادخال"
+
 }

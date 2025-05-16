@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:fruits_hub/core/utils/app_colors.dart';
 import 'package:fruits_hub/core/utils/app_styles.dart';
+import 'package:fruits_hub/generated/l10n.dart';
 
 class CustomTextFromField extends StatelessWidget {
   const CustomTextFromField({
@@ -19,7 +20,7 @@ class CustomTextFromField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TextFormField(
-      validator: (value) => value!.isEmpty ? 'Enter $hintText' : null,
+      validator: (value) => value!.isEmpty ? "${S.of(context).required} $hintText" : null,
       onSaved: onSaved,
       keyboardType: keyboardType,
       obscureText: keyboardType == TextInputType.visiblePassword,

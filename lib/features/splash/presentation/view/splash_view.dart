@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:fruits_hub/constant.dart';
-import 'package:fruits_hub/core/utils/shared_preferences.dart';
+import 'package:fruits_hub/core/services/shared_preferences.dart';
 import 'package:fruits_hub/features/auth/presentation/views/login_view.dart';
 import 'package:fruits_hub/features/onbording/presentation/view/onbording_view.dart';
 import 'package:fruits_hub/features/splash/presentation/widgets/splash_view_body.dart';

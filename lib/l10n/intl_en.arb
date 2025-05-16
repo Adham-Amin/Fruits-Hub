@@ -38,5 +38,12 @@
   "newPassword": "New Password",
   "confirmNewPassword": "Confirm New Password",
   "setNewPassword": "Set New Password",
-  "passwordChangedSuccess": "Password changed successfully"
+  "passwordChangedSuccess": "Password changed successfully",
+
+  "weakPassword" : "The password provided is too weak.",
+  "emailAlreadyInUse" : "The account already exists for that email.",
+  "networkFailed" : "No internet connection.",
+  "somethingWentWrong": "Something went wrong, please try again later.",
+  "required" : "Please enter"
+
 }

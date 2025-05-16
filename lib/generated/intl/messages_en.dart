@@ -38,6 +38,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "confirmPassword": MessageLookupByLibrary.simpleMessage("Confirm Password"),
     "createAccount": MessageLookupByLibrary.simpleMessage("Create an account"),
     "email": MessageLookupByLibrary.simpleMessage("Email"),
+    "emailAlreadyInUse": MessageLookupByLibrary.simpleMessage(
+      "The account already exists for that email.",
+    ),
     "enterNewPassword": MessageLookupByLibrary.simpleMessage(
       "Create a new password to log in",
     ),
@@ -58,6 +61,9 @@ class MessageLookup extends MessageLookupByLibrary {
       "Login with Google",
     ),
     "name": MessageLookupByLibrary.simpleMessage("Full Name"),
+    "networkFailed": MessageLookupByLibrary.simpleMessage(
+      "No internet connection.",
+    ),
     "newPassword": MessageLookupByLibrary.simpleMessage("New Password"),
     "newPasswordTitle": MessageLookupByLibrary.simpleMessage("New Password"),
     "noAccount": MessageLookupByLibrary.simpleMessage(
@@ -80,6 +86,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "passwordChangedSuccess": MessageLookupByLibrary.simpleMessage(
       "Password changed successfully",
     ),
+    "required": MessageLookupByLibrary.simpleMessage("Please enter"),
     "resendCode": MessageLookupByLibrary.simpleMessage("Resend Code"),
     "resetPasswordTitle": MessageLookupByLibrary.simpleMessage(
       "Password Recovery",
@@ -88,7 +95,13 @@ class MessageLookup extends MessageLookupByLibrary {
     "setNewPassword": MessageLookupByLibrary.simpleMessage("Set New Password"),
     "signupButton": MessageLookupByLibrary.simpleMessage("Create New Account"),
     "signupTitle": MessageLookupByLibrary.simpleMessage("New Account"),
+    "somethingWentWrong": MessageLookupByLibrary.simpleMessage(
+      "Something went wrong, please try again later.",
+    ),
     "verifyCodeButton": MessageLookupByLibrary.simpleMessage("Verify Code"),
     "verifyCodeTitle": MessageLookupByLibrary.simpleMessage("Verify Code"),
+    "weakPassword": MessageLookupByLibrary.simpleMessage(
+      "The password provided is too weak.",
+    ),
   };
 }

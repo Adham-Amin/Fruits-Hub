@@ -62,7 +62,7 @@ class _FormLoginEmailAndPasswordState extends State<FormLoginEmailAndPassword> {
             ),
           ],
         ),
-        SizedBox(height: 33),
+        SizedBox(height: 32),
         CustomButton(title: S.of(context).login),
       ],
     );
