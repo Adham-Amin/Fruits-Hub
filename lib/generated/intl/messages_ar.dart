@@ -98,10 +98,16 @@ class MessageLookup extends MessageLookupByLibrary {
     "somethingWentWrong": MessageLookupByLibrary.simpleMessage(
       "حدث خطأ ما، يرجى المحاولة لاحقًا.",
     ),
+    "userNotFound": MessageLookupByLibrary.simpleMessage(
+      "البريد الإلكتروني غير موجود",
+    ),
     "verifyCodeButton": MessageLookupByLibrary.simpleMessage("تحقق من الرمز"),
     "verifyCodeTitle": MessageLookupByLibrary.simpleMessage("التحقق من الرمز"),
     "weakPassword": MessageLookupByLibrary.simpleMessage(
       "كلمة المرور ضعيفة جدًا.",
+    ),
+    "wrongPassword": MessageLookupByLibrary.simpleMessage(
+      "كلمة المرور غير صحيحة",
     ),
   };
 }

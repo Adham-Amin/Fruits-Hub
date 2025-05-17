@@ -1,10 +1,11 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:fruits_hub/core/functions/bar_massage.dart';
 import 'package:fruits_hub/core/utils/app_colors.dart';
 import 'package:fruits_hub/core/utils/app_styles.dart';
 import 'package:fruits_hub/core/widgets/custom_button.dart';
-import 'package:fruits_hub/features/auth/presentation/manager/cubit/signin_cubit.dart';
+import 'package:fruits_hub/features/auth/presentation/manager/signin_cubits/signin_cubit.dart';
 import 'package:fruits_hub/features/auth/presentation/widgets/custom_check_box.dart';
 import 'package:fruits_hub/features/auth/presentation/widgets/form_signin.dart';
 import 'package:fruits_hub/features/auth/presentation/widgets/have_or_not_account.dart';
@@ -92,9 +93,7 @@ class _SigninViewBodyState extends State<SigninViewBody> {
                         name: name,
                       );
                     } else {
-                      ScaffoldMessenger.of(context).showSnackBar(
-                        SnackBar(content: Text(S.of(context).agreeToTerms)),
-                      );
+                      showSnackBar(context, S.of(context).agreeToTerms);
                     }
                   } else {
                     setState(() {

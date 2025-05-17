@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:fruits_hub/core/functions/bar_massage.dart';
 import 'package:fruits_hub/core/services/get_it_sevices.dart';
 import 'package:fruits_hub/core/utils/app_colors.dart';
 import 'package:fruits_hub/core/utils/app_styles.dart';
 import 'package:fruits_hub/features/auth/domain/repos/auth_repo.dart';
-import 'package:fruits_hub/features/auth/presentation/manager/cubit/signin_cubit.dart';
+import 'package:fruits_hub/features/auth/presentation/manager/signin_cubits/signin_cubit.dart';
 import 'package:fruits_hub/features/auth/presentation/widgets/signin_view_body.dart';
 import 'package:fruits_hub/generated/l10n.dart';
 import 'package:modal_progress_hud_nsn/modal_progress_hud_nsn.dart';
@@ -44,9 +45,7 @@ class SigninView extends StatelessWidget {
                 if (state is SigninLoaded) {
                   Navigator.pop(context);
                 } else if (state is SigninError) {
-                  ScaffoldMessenger.of(context).showSnackBar(
-                    SnackBar(content: Text(state.failure.message)),
-                  );
+                 showSnackBar(context, state.failure.message);
                 }
               },
               builder: (context, state) {

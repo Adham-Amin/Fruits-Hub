@@ -44,6 +44,9 @@
   "emailAlreadyInUse" : "The account already exists for that email.",
   "networkFailed" : "No internet connection.",
   "somethingWentWrong": "Something went wrong, please try again later.",
-  "required" : "Please enter"
+  "required" : "Please enter",
+
+  "wrongPassword" : "Wrong password",
+  "userNotFound" : "Email not found"
 
 }

@@ -6,7 +6,11 @@ import 'package:fruits_hub/core/widgets/custom_text_from_field.dart';
 import 'package:fruits_hub/generated/l10n.dart';
 
 class FormLoginEmailAndPassword extends StatefulWidget {
-  const FormLoginEmailAndPassword({super.key});
+  const FormLoginEmailAndPassword({super.key, this.email, this.password, this.onPressed});
+
+  final void Function(String?)? email;
+  final void Function(String?)? password;
+  final void Function()? onPressed;
 
   @override
   State<FormLoginEmailAndPassword> createState() =>
@@ -14,17 +18,19 @@ class FormLoginEmailAndPassword extends StatefulWidget {
 }
 
 class _FormLoginEmailAndPasswordState extends State<FormLoginEmailAndPassword> {
-  bool isHidden = true;
+  bool isHidden = false;
   @override
   Widget build(BuildContext context) {
     return Column(
       children: [
         CustomTextFromField(
+          onSaved: widget.email,
           hintText: S.of(context).email,
           keyboardType: TextInputType.emailAddress,
         ),
         SizedBox(height: 16),
         CustomTextFromField(
+          onSaved: widget.password,
           hintText: S.of(context).password,
           keyboardType:
               isHidden
@@ -63,7 +69,7 @@ class _FormLoginEmailAndPasswordState extends State<FormLoginEmailAndPassword> {
           ],
         ),
         SizedBox(height: 32),
-        CustomButton(title: S.of(context).login),
+        CustomButton(onPressed: widget.onPressed, title: S.of(context).login),
       ],
     );
   }

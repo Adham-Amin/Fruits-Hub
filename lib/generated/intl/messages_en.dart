@@ -98,10 +98,12 @@ class MessageLookup extends MessageLookupByLibrary {
     "somethingWentWrong": MessageLookupByLibrary.simpleMessage(
       "Something went wrong, please try again later.",
     ),
+    "userNotFound": MessageLookupByLibrary.simpleMessage("Email not found"),
     "verifyCodeButton": MessageLookupByLibrary.simpleMessage("Verify Code"),
     "verifyCodeTitle": MessageLookupByLibrary.simpleMessage("Verify Code"),
     "weakPassword": MessageLookupByLibrary.simpleMessage(
       "The password provided is too weak.",
     ),
+    "wrongPassword": MessageLookupByLibrary.simpleMessage("Wrong password"),
   };
 }

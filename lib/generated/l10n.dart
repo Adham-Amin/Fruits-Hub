@@ -449,6 +449,26 @@ class S {
   String get required {
     return Intl.message('Please enter', name: 'required', desc: '', args: []);
   }
+
+  /// `Wrong password`
+  String get wrongPassword {
+    return Intl.message(
+      'Wrong password',
+      name: 'wrongPassword',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Email not found`
+  String get userNotFound {
+    return Intl.message(
+      'Email not found',
+      name: 'userNotFound',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
