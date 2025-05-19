@@ -1,8 +1,10 @@
 import 'dart:developer';
 
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter_facebook_auth/flutter_facebook_auth.dart';
 import 'package:fruits_hub/core/errors/custom_exception.dart';
 import 'package:fruits_hub/generated/l10n.dart';
+import 'package:google_sign_in/google_sign_in.dart';
 
 class FirebaseAuthServies {
   Future<User> createUserWithEmailAndPassword({
@@ -35,8 +37,10 @@ class FirebaseAuthServies {
     required String password,
   }) async {
     try {
-      final credential = await FirebaseAuth.instance
-          .signInWithEmailAndPassword(email: email, password: password);
+      final credential = await FirebaseAuth.instance.signInWithEmailAndPassword(
+        email: email,
+        password: password,
+      );
       return credential.user!;
     } on FirebaseAuthException catch (e) {
       log("errorFromLoginFirebase: ${e.message}}");
@@ -53,5 +57,34 @@ class FirebaseAuthServies {
       log("error: ${e.toString()}");
       throw CustomException(message: S.current.somethingWentWrong);
     }
+  }
+
+  Future<User> signInWithGoogle() async {
+    final GoogleSignInAccount? googleUser = await GoogleSignIn().signIn();
+
+    final GoogleSignInAuthentication? googleAuth =
+        await googleUser?.authentication;
+
+    final credential = GoogleAuthProvider.credential(
+      accessToken: googleAuth?.accessToken,
+      idToken: googleAuth?.idToken,
+    );
+
+    return (await FirebaseAuth.instance.signInWithCredential(credential)).user!;
+  }
+
+  Future<User> signInWithFacebook() async {
+    final LoginResult loginResult = await FacebookAuth.instance.login();
+
+    final OAuthCredential facebookAuthCredential =
+        FacebookAuthProvider.credential(loginResult.accessToken!.token);
+
+    return (await FirebaseAuth.instance.signInWithCredential(
+      facebookAuthCredential,
+    )).user!;
+  }
+
+  Future<void> deleteUser() async {
+    await FirebaseAuth.instance.currentUser!.delete();
   }
 }

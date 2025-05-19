@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:fruits_hub/core/utils/app_assets.dart';
@@ -72,16 +74,27 @@ class _LoginViewBodyState extends State<LoginViewBody> {
               ),
               SizedBox(height: 16),
               SocialButton(
+                onTap: () {
+                  context.read<LoginCubit>().loginWithGoogle();
+                },
                 icon: AppAssets.imagesGoogleIcon,
                 title: S.of(context).loginWithGoogle,
               ),
               SizedBox(height: 16),
+              Platform.isIOS ? Column(
+                children: [
+                  SocialButton(
+                    onTap: () {},
+                    icon: AppAssets.imagesAppleIcon,
+                    title: S.of(context).loginWithApple,
+                  ),
+                  SizedBox(height: 16),
+                ],
+              ) : const SizedBox(),
               SocialButton(
-                icon: AppAssets.imagesAppleIcon,
-                title: S.of(context).loginWithApple,
-              ),
-              SizedBox(height: 16),
-              SocialButton(
+                onTap: () {
+                  context.read<LoginCubit>().loginWithFacebook();
+                },
                 icon: AppAssets.imagesFacebookIcon,
                 title: S.of(context).loginWithFacebook,
               ),

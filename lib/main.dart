@@ -21,7 +21,7 @@ void main() async {
   Bloc.observer = CustomObserverBloc();
   runApp(const FruitsHub());
 }
-
+ 
 class FruitsHub extends StatelessWidget {
   const FruitsHub({super.key});
 

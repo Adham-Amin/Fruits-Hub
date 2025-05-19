@@ -13,4 +13,12 @@ abstract class AuthRepo {
     required String email,
     required String password,
   });
+
+  Future<Either<Failure, UserEntity>> logoinWithGoogleUser();
+
+  Future<Either<Failure, UserEntity>> logoinWithFacebookUser();
+
+  Future addUserData({required UserEntity user, required String docId});
+
+  Future<Map<String, dynamic>> getUserData({required String docId});
 }

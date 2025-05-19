@@ -12,4 +12,16 @@ class UserEntity {
     name: user.displayName ?? '',
     email: user.email ?? '',
   );
+
+  toMap() {
+    return {'uId': uId, 'name': name, 'email': email};
+  }
+
+  factory UserEntity.fromMap(Map<String, dynamic> json) {
+    return UserEntity(
+      uId: json['uId'],
+      name: json['name'],
+      email: json['email'],
+    );
+  }
 }
