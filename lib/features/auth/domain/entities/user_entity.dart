@@ -24,4 +24,5 @@ class UserEntity {
       email: json['email'],
     );
   }
+  
 }

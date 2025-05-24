@@ -14,4 +14,12 @@ class Prefs {
   static bool getBool(String key) {
     return prefs.getBool(key) ?? false;
   }
+
+  static setString(String key, String value) {
+    prefs.setString(key, value);
+  }
+
+  static String getString(String key) {
+    return prefs.getString(key) ?? "";
+  }
 }

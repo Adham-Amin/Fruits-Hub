@@ -469,6 +469,106 @@ class S {
       args: [],
     );
   }
+
+  /// `Good Morning..!`
+  String get goodMorning {
+    return Intl.message(
+      'Good Morning..!',
+      name: 'goodMorning',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Ahmed Mostafa`
+  String get userName {
+    return Intl.message('Ahmed Mostafa', name: 'userName', desc: '', args: []);
+  }
+
+  /// `Search...`
+  String get searchHere {
+    return Intl.message('Search...', name: 'searchHere', desc: '', args: []);
+  }
+
+  /// `Eid Offers`
+  String get offers {
+    return Intl.message('Eid Offers', name: 'offers', desc: '', args: []);
+  }
+
+  /// `25% OFF`
+  String get discount {
+    return Intl.message('25% OFF', name: 'discount', desc: '', args: []);
+  }
+
+  /// `Shop Now`
+  String get shopNow {
+    return Intl.message('Shop Now', name: 'shopNow', desc: '', args: []);
+  }
+
+  /// `Best Sellers`
+  String get bestSelling {
+    return Intl.message(
+      'Best Sellers',
+      name: 'bestSelling',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `More`
+  String get more {
+    return Intl.message('More', name: 'more', desc: '', args: []);
+  }
+
+  /// `Strawberry`
+  String get strawberry {
+    return Intl.message('Strawberry', name: 'strawberry', desc: '', args: []);
+  }
+
+  /// `Watermelon`
+  String get watermelon {
+    return Intl.message('Watermelon', name: 'watermelon', desc: '', args: []);
+  }
+
+  /// `Avocado`
+  String get avocado {
+    return Intl.message('Avocado', name: 'avocado', desc: '', args: []);
+  }
+
+  /// `Pineapple`
+  String get pineapple {
+    return Intl.message('Pineapple', name: 'pineapple', desc: '', args: []);
+  }
+
+  /// `/ Kilo`
+  String get kilo {
+    return Intl.message('/ Kilo', name: 'kilo', desc: '', args: []);
+  }
+
+  /// `EGP`
+  String get price {
+    return Intl.message('EGP', name: 'price', desc: '', args: []);
+  }
+
+  /// `Home`
+  String get home {
+    return Intl.message('Home', name: 'home', desc: '', args: []);
+  }
+
+  /// `Cart`
+  String get cart {
+    return Intl.message('Cart', name: 'cart', desc: '', args: []);
+  }
+
+  /// `Categories`
+  String get categories {
+    return Intl.message('Categories', name: 'categories', desc: '', args: []);
+  }
+
+  /// `Profile`
+  String get profile {
+    return Intl.message('Profile', name: 'profile', desc: '', args: []);
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

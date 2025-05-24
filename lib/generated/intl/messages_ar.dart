@@ -28,6 +28,10 @@ class MessageLookup extends MessageLookupByLibrary {
     "alreadyHaveAccount": MessageLookupByLibrary.simpleMessage(
       "تمتلك حساب بالفعل؟ ",
     ),
+    "avocado": MessageLookupByLibrary.simpleMessage("أفوكادو"),
+    "bestSelling": MessageLookupByLibrary.simpleMessage("الأكثر مبيعاً"),
+    "cart": MessageLookupByLibrary.simpleMessage("السلة"),
+    "categories": MessageLookupByLibrary.simpleMessage("الأقسام"),
     "codeSentTo": MessageLookupByLibrary.simpleMessage("تم إرسال الرمز إلى"),
     "conditions": MessageLookupByLibrary.simpleMessage(
       "من خلال إنشاء حساب ، فإنك توافق على",
@@ -39,6 +43,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "تأكيد كلمة المرور",
     ),
     "createAccount": MessageLookupByLibrary.simpleMessage("قم بانشاء حساب"),
+    "discount": MessageLookupByLibrary.simpleMessage("خصم %25"),
     "email": MessageLookupByLibrary.simpleMessage("البريد الإلكتروني"),
     "emailAlreadyInUse": MessageLookupByLibrary.simpleMessage(
       "يوجد حساب مسجل بهذا البريد الإلكتروني بالفعل.",
@@ -50,6 +55,9 @@ class MessageLookup extends MessageLookupByLibrary {
       "لا تقلق ، ما عليك سوى كتابة رقم هاتفك وسنرسل رمز التحقق.",
     ),
     "forgotPassword": MessageLookupByLibrary.simpleMessage("نسيت كلمة المرور؟"),
+    "goodMorning": MessageLookupByLibrary.simpleMessage("صباح الخير..!"),
+    "home": MessageLookupByLibrary.simpleMessage("الرئيسية"),
+    "kilo": MessageLookupByLibrary.simpleMessage("/ الكيلو"),
     "login": MessageLookupByLibrary.simpleMessage("تسجيل دخول"),
     "loginButton": MessageLookupByLibrary.simpleMessage("تسجيل دخول"),
     "loginTitle": MessageLookupByLibrary.simpleMessage("تسجيل دخول"),
@@ -60,6 +68,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "loginWithGoogle": MessageLookupByLibrary.simpleMessage(
       "تسجيل بواسطة جوجل",
     ),
+    "more": MessageLookupByLibrary.simpleMessage("المزيد"),
     "name": MessageLookupByLibrary.simpleMessage("الاسم الكامل"),
     "networkFailed": MessageLookupByLibrary.simpleMessage(
       "لا يوجد اتصال بالإنترنت.",
@@ -67,6 +76,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "newPassword": MessageLookupByLibrary.simpleMessage("كلمة المرور الجديدة"),
     "newPasswordTitle": MessageLookupByLibrary.simpleMessage("كلمة مرور جديدة"),
     "noAccount": MessageLookupByLibrary.simpleMessage("لا تملك حساب؟"),
+    "offers": MessageLookupByLibrary.simpleMessage("عروض العيد"),
     "onboarding1Description": MessageLookupByLibrary.simpleMessage(
       "اكتشف تجربة تسوق فريدة مع FruitHUB. استكشف مجموعتنا الواسعة من الفواكه الطازجة الممتازة واحصل على أفضل العروض والجودة العالية.",
     ),
@@ -84,25 +94,33 @@ class MessageLookup extends MessageLookupByLibrary {
     "passwordChangedSuccess": MessageLookupByLibrary.simpleMessage(
       "تم تغيير كلمة المرور بنجاح",
     ),
+    "pineapple": MessageLookupByLibrary.simpleMessage("أناناس"),
+    "price": MessageLookupByLibrary.simpleMessage("جنية"),
+    "profile": MessageLookupByLibrary.simpleMessage("الملف الشخصي"),
     "required": MessageLookupByLibrary.simpleMessage("يرجى ادخال"),
     "resendCode": MessageLookupByLibrary.simpleMessage("إعادة إرسال الرمز"),
     "resetPasswordTitle": MessageLookupByLibrary.simpleMessage(
       "استعادة كلمة المرور",
     ),
+    "searchHere": MessageLookupByLibrary.simpleMessage("ابحث عن..."),
     "sendCode": MessageLookupByLibrary.simpleMessage("إرسال رمز التحقق"),
     "setNewPassword": MessageLookupByLibrary.simpleMessage(
       "إنشاء كلمة مرور جديدة",
     ),
+    "shopNow": MessageLookupByLibrary.simpleMessage("تسوق الآن"),
     "signupButton": MessageLookupByLibrary.simpleMessage("انشاء حساب جديد"),
     "signupTitle": MessageLookupByLibrary.simpleMessage("حساب جديد"),
     "somethingWentWrong": MessageLookupByLibrary.simpleMessage(
       "حدث خطأ ما، يرجى المحاولة لاحقًا.",
     ),
+    "strawberry": MessageLookupByLibrary.simpleMessage("فراولة"),
+    "userName": MessageLookupByLibrary.simpleMessage("أحمد مصطفى"),
     "userNotFound": MessageLookupByLibrary.simpleMessage(
       "البريد الإلكتروني غير موجود",
     ),
     "verifyCodeButton": MessageLookupByLibrary.simpleMessage("تحقق من الرمز"),
     "verifyCodeTitle": MessageLookupByLibrary.simpleMessage("التحقق من الرمز"),
+    "watermelon": MessageLookupByLibrary.simpleMessage("بطيخ"),
     "weakPassword": MessageLookupByLibrary.simpleMessage(
       "كلمة المرور ضعيفة جدًا.",
     ),

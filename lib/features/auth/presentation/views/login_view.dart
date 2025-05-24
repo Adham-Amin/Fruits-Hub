@@ -7,6 +7,7 @@ import 'package:fruits_hub/core/utils/app_styles.dart';
 import 'package:fruits_hub/features/auth/domain/repos/auth_repo.dart';
 import 'package:fruits_hub/features/auth/presentation/manager/login_cubit/login_cubit.dart';
 import 'package:fruits_hub/features/auth/presentation/widgets/login_view_body.dart';
+import 'package:fruits_hub/features/home/presentation/views/home_view.dart';
 import 'package:fruits_hub/generated/l10n.dart';
 import 'package:modal_progress_hud_nsn/modal_progress_hud_nsn.dart';
 
@@ -35,7 +36,7 @@ class LoginView extends StatelessWidget {
             return BlocConsumer<LoginCubit, LoginState>(
               listener: (context, state) {
                 if (state is LoginLoaded) {
-                  // Navigate to the next screen
+                  Navigator.pushReplacementNamed(context, HomeView.routeName);
                 } else if (state is LoginError) {
                   showSnackBar(context, state.failure.message);
                 }

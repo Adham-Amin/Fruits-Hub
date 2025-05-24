@@ -53,6 +53,25 @@
   "somethingWentWrong": "حدث خطأ ما، يرجى المحاولة لاحقًا.",
   "required": "يرجى ادخال",
   "userNotFound": "البريد الإلكتروني غير موجود",
-  "wrongPassword" : "كلمة المرور غير صحيحة"
+  "wrongPassword" : "كلمة المرور غير صحيحة",
+
+  "goodMorning": "صباح الخير..!",
+  "userName": "أحمد مصطفى",
+  "searchHere": "ابحث عن...",
+  "offers": "عروض العيد",
+  "discount": "خصم %25",
+  "shopNow": "تسوق الآن",
+  "bestSelling": "الأكثر مبيعاً",
+  "more": "المزيد",
+  "strawberry": "فراولة",
+  "watermelon": "بطيخ",
+  "avocado": "أفوكادو",
+  "pineapple": "أناناس",
+  "kilo": "/ الكيلو",
+  "price": "جنية",
+  "home": "الرئيسية",
+  "cart": "السلة",
+  "categories": "الأقسام",
+  "profile": "الملف الشخصي"
 
 }

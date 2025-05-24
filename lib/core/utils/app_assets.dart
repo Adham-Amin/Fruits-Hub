@@ -10,6 +10,10 @@ class AppAssets {
   /// assets/images/apple_icon.svg
   static const String imagesAppleIcon = "assets/images/apple_icon.svg";
 
+  /// Assets for imagesBkgroundOffer
+  /// assets/images/bkground_offer.svg
+  static const String imagesBkgroundOffer = "assets/images/bkground_offer.svg";
+
   /// Assets for imagesBkgroundOnbording1
   /// assets/images/bkground_onbording_1.svg
   static const String imagesBkgroundOnbording1 = "assets/images/bkground_onbording_1.svg";
@@ -34,9 +38,29 @@ class AppAssets {
   /// assets/images/google_icon.svg
   static const String imagesGoogleIcon = "assets/images/google_icon.svg";
 
+  /// Assets for imagesHeart
+  /// assets/images/heart.svg
+  static const String imagesHeart = "assets/images/heart.svg";
+
+  /// Assets for imagesIconFilter
+  /// assets/images/icon_filter.svg
+  static const String imagesIconFilter = "assets/images/icon_filter.svg";
+
+  /// Assets for imagesIconNotification
+  /// assets/images/icon_notification.svg
+  static const String imagesIconNotification = "assets/images/icon_notification.svg";
+
+  /// Assets for imagesIconSearch
+  /// assets/images/icon_search.svg
+  static const String imagesIconSearch = "assets/images/icon_search.svg";
+
   /// Assets for imagesLogo
   /// assets/images/logo.svg
   static const String imagesLogo = "assets/images/logo.svg";
+
+  /// Assets for imagesOfferImage
+  /// assets/images/offer_image.png
+  static const String imagesOfferImage = "assets/images/offer_image.png";
 
   /// Assets for imagesPineapple
   /// assets/images/pineapple.svg
@@ -45,5 +69,13 @@ class AppAssets {
   /// Assets for imagesPlant
   /// assets/images/plant.svg
   static const String imagesPlant = "assets/images/plant.svg";
+
+  /// Assets for imagesProfileImage
+  /// assets/images/profile_image.png
+  static const String imagesProfileImage = "assets/images/profile_image.png";
+
+  /// Assets for imagesStrawberry
+  /// assets/images/strawberry.png
+  static const String imagesStrawberry = "assets/images/strawberry.png";
 }
 

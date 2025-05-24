@@ -47,6 +47,25 @@
   "required" : "Please enter",
 
   "wrongPassword" : "Wrong password",
-  "userNotFound" : "Email not found"
+  "userNotFound" : "Email not found",
+
+  "goodMorning": "Good Morning..!",
+  "userName": "Ahmed Mostafa",
+  "searchHere": "Search...",
+  "offers": "Eid Offers",
+  "discount": "25% OFF",
+  "shopNow": "Shop Now",
+  "bestSelling": "Best Sellers",
+  "more": "More",
+  "strawberry": "Strawberry",
+  "watermelon": "Watermelon",
+  "avocado": "Avocado",
+  "pineapple": "Pineapple",
+  "kilo": "/ Kilo",
+  "price": "EGP",
+  "home": "Home",
+  "cart": "Cart",
+  "categories": "Categories",
+  "profile": "Profile"
 
 }

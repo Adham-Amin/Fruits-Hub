@@ -28,6 +28,10 @@ class MessageLookup extends MessageLookupByLibrary {
     "alreadyHaveAccount": MessageLookupByLibrary.simpleMessage(
       "Already have an account?",
     ),
+    "avocado": MessageLookupByLibrary.simpleMessage("Avocado"),
+    "bestSelling": MessageLookupByLibrary.simpleMessage("Best Sellers"),
+    "cart": MessageLookupByLibrary.simpleMessage("Cart"),
+    "categories": MessageLookupByLibrary.simpleMessage("Categories"),
     "codeSentTo": MessageLookupByLibrary.simpleMessage("The code was sent to"),
     "conditions": MessageLookupByLibrary.simpleMessage(
       "By creating an account, you agree to",
@@ -37,6 +41,7 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "confirmPassword": MessageLookupByLibrary.simpleMessage("Confirm Password"),
     "createAccount": MessageLookupByLibrary.simpleMessage("Create an account"),
+    "discount": MessageLookupByLibrary.simpleMessage("25% OFF"),
     "email": MessageLookupByLibrary.simpleMessage("Email"),
     "emailAlreadyInUse": MessageLookupByLibrary.simpleMessage(
       "The account already exists for that email.",
@@ -50,6 +55,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "forgotPassword": MessageLookupByLibrary.simpleMessage(
       "Forgot your password?",
     ),
+    "goodMorning": MessageLookupByLibrary.simpleMessage("Good Morning..!"),
+    "home": MessageLookupByLibrary.simpleMessage("Home"),
+    "kilo": MessageLookupByLibrary.simpleMessage("/ Kilo"),
     "login": MessageLookupByLibrary.simpleMessage("Login"),
     "loginButton": MessageLookupByLibrary.simpleMessage("Login"),
     "loginTitle": MessageLookupByLibrary.simpleMessage("Login"),
@@ -60,6 +68,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "loginWithGoogle": MessageLookupByLibrary.simpleMessage(
       "Login with Google",
     ),
+    "more": MessageLookupByLibrary.simpleMessage("More"),
     "name": MessageLookupByLibrary.simpleMessage("Full Name"),
     "networkFailed": MessageLookupByLibrary.simpleMessage(
       "No internet connection.",
@@ -69,6 +78,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "noAccount": MessageLookupByLibrary.simpleMessage(
       "Don\'t have an account?",
     ),
+    "offers": MessageLookupByLibrary.simpleMessage("Eid Offers"),
     "onboarding1Description": MessageLookupByLibrary.simpleMessage(
       "Discover a unique shopping experience with FruitHUB. Explore our wide selection of premium fresh fruits and get the best deals and top quality.",
     ),
@@ -86,21 +96,29 @@ class MessageLookup extends MessageLookupByLibrary {
     "passwordChangedSuccess": MessageLookupByLibrary.simpleMessage(
       "Password changed successfully",
     ),
+    "pineapple": MessageLookupByLibrary.simpleMessage("Pineapple"),
+    "price": MessageLookupByLibrary.simpleMessage("EGP"),
+    "profile": MessageLookupByLibrary.simpleMessage("Profile"),
     "required": MessageLookupByLibrary.simpleMessage("Please enter"),
     "resendCode": MessageLookupByLibrary.simpleMessage("Resend Code"),
     "resetPasswordTitle": MessageLookupByLibrary.simpleMessage(
       "Password Recovery",
     ),
+    "searchHere": MessageLookupByLibrary.simpleMessage("Search..."),
     "sendCode": MessageLookupByLibrary.simpleMessage("Send Verification Code"),
     "setNewPassword": MessageLookupByLibrary.simpleMessage("Set New Password"),
+    "shopNow": MessageLookupByLibrary.simpleMessage("Shop Now"),
     "signupButton": MessageLookupByLibrary.simpleMessage("Create New Account"),
     "signupTitle": MessageLookupByLibrary.simpleMessage("New Account"),
     "somethingWentWrong": MessageLookupByLibrary.simpleMessage(
       "Something went wrong, please try again later.",
     ),
+    "strawberry": MessageLookupByLibrary.simpleMessage("Strawberry"),
+    "userName": MessageLookupByLibrary.simpleMessage("Ahmed Mostafa"),
     "userNotFound": MessageLookupByLibrary.simpleMessage("Email not found"),
     "verifyCodeButton": MessageLookupByLibrary.simpleMessage("Verify Code"),
     "verifyCodeTitle": MessageLookupByLibrary.simpleMessage("Verify Code"),
+    "watermelon": MessageLookupByLibrary.simpleMessage("Watermelon"),
     "weakPassword": MessageLookupByLibrary.simpleMessage(
       "The password provided is too weak.",
     ),
