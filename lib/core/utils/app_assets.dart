@@ -42,6 +42,14 @@ class AppAssets {
   /// assets/images/heart.svg
   static const String imagesHeart = "assets/images/heart.svg";
 
+  /// Assets for imagesHome
+  /// assets/images/home.svg
+  static const String imagesHome = "assets/images/home.svg";
+
+  /// Assets for imagesHomeActive
+  /// assets/images/home_active.svg
+  static const String imagesHomeActive = "assets/images/home_active.svg";
+
   /// Assets for imagesIconFilter
   /// assets/images/icon_filter.svg
   static const String imagesIconFilter = "assets/images/icon_filter.svg";
@@ -57,6 +65,14 @@ class AppAssets {
   /// Assets for imagesLogo
   /// assets/images/logo.svg
   static const String imagesLogo = "assets/images/logo.svg";
+
+  /// Assets for imagesMenu
+  /// assets/images/menu.svg
+  static const String imagesMenu = "assets/images/menu.svg";
+
+  /// Assets for imagesMenuActive
+  /// assets/images/menu_active.svg
+  static const String imagesMenuActive = "assets/images/menu_active.svg";
 
   /// Assets for imagesOfferImage
   /// assets/images/offer_image.png
@@ -74,8 +90,24 @@ class AppAssets {
   /// assets/images/profile_image.png
   static const String imagesProfileImage = "assets/images/profile_image.png";
 
+  /// Assets for imagesShoppingCart
+  /// assets/images/shopping_cart.svg
+  static const String imagesShoppingCart = "assets/images/shopping_cart.svg";
+
+  /// Assets for imagesShoppingCartActive
+  /// assets/images/shopping_cart_active.svg
+  static const String imagesShoppingCartActive = "assets/images/shopping_cart_active.svg";
+
   /// Assets for imagesStrawberry
   /// assets/images/strawberry.png
   static const String imagesStrawberry = "assets/images/strawberry.png";
+
+  /// Assets for imagesUser
+  /// assets/images/user.svg
+  static const String imagesUser = "assets/images/user.svg";
+
+  /// Assets for imagesUserActive
+  /// assets/images/user_active.svg
+  static const String imagesUserActive = "assets/images/user_active.svg";
 }
 
