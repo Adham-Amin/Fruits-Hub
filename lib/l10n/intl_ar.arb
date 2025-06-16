@@ -72,6 +72,18 @@
   "home": "الرئيسية",
   "cart": "السلة",
   "categories": "الأقسام",
-  "profile": "الملف الشخصي"
-
+  "profile": "الملف الشخصي",
+  "products": "المنتجات",
+  "results": "نتائج",
+  "review": "المراجعة",
+  "months" : "شهور",
+  "organic" : "اوجانيك",
+  "calories" : "كالوري",
+  "grams" : "100 جرام",
+  "expiration" : "الصلاحية",
+  "yes" : "نعم",
+  "no" : "لا",
+  "addToCart" : "اضافة الى السلة",
+  "add" : "اضافة",
+  "remove" : "حذف"
 }

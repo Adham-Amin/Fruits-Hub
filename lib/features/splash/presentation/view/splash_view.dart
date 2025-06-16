@@ -3,7 +3,7 @@ import 'package:fruits_hub/constant.dart';
 import 'package:fruits_hub/core/services/firebase_auth_servies.dart';
 import 'package:fruits_hub/core/services/shared_preferences.dart';
 import 'package:fruits_hub/features/auth/presentation/views/login_view.dart';
-import 'package:fruits_hub/features/home/presentation/views/home_view.dart';
+import 'package:fruits_hub/features/home/presentation/views/main_view.dart';
 import 'package:fruits_hub/features/onbording/presentation/view/onbording_view.dart';
 import 'package:fruits_hub/features/splash/presentation/widgets/splash_view_body.dart';
 
@@ -34,7 +34,7 @@ class _SplashViewState extends State<SplashView> {
     await Future.delayed(const Duration(seconds: 3));
     if(Prefs.getBool(kSeenOnBoarding)) {
       if(FirebaseAuthServies.isSignedIn()) {
-        Navigator.pushReplacementNamed(context, HomeView.routeName);
+        Navigator.pushReplacementNamed(context, MainView.routeName);
       }
       else {
         Navigator.pushReplacementNamed(context, LoginView.routeName);

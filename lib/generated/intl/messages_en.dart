@@ -22,6 +22,8 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+    "AddToCart": MessageLookupByLibrary.simpleMessage("Add to Cart"),
+    "add": MessageLookupByLibrary.simpleMessage("Add"),
     "agreeToTerms": MessageLookupByLibrary.simpleMessage(
       "I agree to our Terms and Conditions",
     ),
@@ -30,6 +32,7 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "avocado": MessageLookupByLibrary.simpleMessage("Avocado"),
     "bestSelling": MessageLookupByLibrary.simpleMessage("Best Sellers"),
+    "calories": MessageLookupByLibrary.simpleMessage("Calories"),
     "cart": MessageLookupByLibrary.simpleMessage("Cart"),
     "categories": MessageLookupByLibrary.simpleMessage("Categories"),
     "codeSentTo": MessageLookupByLibrary.simpleMessage("The code was sent to"),
@@ -52,10 +55,12 @@ class MessageLookup extends MessageLookupByLibrary {
     "enterPhoneToReset": MessageLookupByLibrary.simpleMessage(
       "Don’t worry, just enter your phone number and we’ll send you a verification code.",
     ),
+    "expiration": MessageLookupByLibrary.simpleMessage("Expiration"),
     "forgotPassword": MessageLookupByLibrary.simpleMessage(
       "Forgot your password?",
     ),
     "goodMorning": MessageLookupByLibrary.simpleMessage("Good Morning..!"),
+    "grams": MessageLookupByLibrary.simpleMessage("100 Grams"),
     "home": MessageLookupByLibrary.simpleMessage("Home"),
     "kilo": MessageLookupByLibrary.simpleMessage("/ Kilo"),
     "login": MessageLookupByLibrary.simpleMessage("Login"),
@@ -68,6 +73,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "loginWithGoogle": MessageLookupByLibrary.simpleMessage(
       "Login with Google",
     ),
+    "months": MessageLookupByLibrary.simpleMessage("Months"),
     "more": MessageLookupByLibrary.simpleMessage("More"),
     "name": MessageLookupByLibrary.simpleMessage("Full Name"),
     "networkFailed": MessageLookupByLibrary.simpleMessage(
@@ -75,6 +81,7 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "newPassword": MessageLookupByLibrary.simpleMessage("New Password"),
     "newPasswordTitle": MessageLookupByLibrary.simpleMessage("New Password"),
+    "no": MessageLookupByLibrary.simpleMessage("No"),
     "noAccount": MessageLookupByLibrary.simpleMessage(
       "Don\'t have an account?",
     ),
@@ -92,18 +99,23 @@ class MessageLookup extends MessageLookupByLibrary {
     "onboarding2Start": MessageLookupByLibrary.simpleMessage("Start Now"),
     "onboarding2Title": MessageLookupByLibrary.simpleMessage("Search and Shop"),
     "or": MessageLookupByLibrary.simpleMessage("Or"),
+    "organic": MessageLookupByLibrary.simpleMessage("Organic"),
     "password": MessageLookupByLibrary.simpleMessage("Password"),
     "passwordChangedSuccess": MessageLookupByLibrary.simpleMessage(
       "Password changed successfully",
     ),
     "pineapple": MessageLookupByLibrary.simpleMessage("Pineapple"),
     "price": MessageLookupByLibrary.simpleMessage("EGP"),
+    "products": MessageLookupByLibrary.simpleMessage("Products"),
     "profile": MessageLookupByLibrary.simpleMessage("Profile"),
+    "remove": MessageLookupByLibrary.simpleMessage("Remove"),
     "required": MessageLookupByLibrary.simpleMessage("Please enter"),
     "resendCode": MessageLookupByLibrary.simpleMessage("Resend Code"),
     "resetPasswordTitle": MessageLookupByLibrary.simpleMessage(
       "Password Recovery",
     ),
+    "results": MessageLookupByLibrary.simpleMessage("Results"),
+    "reviews": MessageLookupByLibrary.simpleMessage("Reviews"),
     "searchHere": MessageLookupByLibrary.simpleMessage("Search..."),
     "sendCode": MessageLookupByLibrary.simpleMessage("Send Verification Code"),
     "setNewPassword": MessageLookupByLibrary.simpleMessage("Set New Password"),
@@ -123,5 +135,6 @@ class MessageLookup extends MessageLookupByLibrary {
       "The password provided is too weak.",
     ),
     "wrongPassword": MessageLookupByLibrary.simpleMessage("Wrong password"),
+    "yes": MessageLookupByLibrary.simpleMessage("Yes"),
   };
 }

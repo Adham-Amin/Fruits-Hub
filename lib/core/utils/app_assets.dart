@@ -10,6 +10,14 @@ class AppAssets {
   /// assets/images/apple_icon.svg
   static const String imagesAppleIcon = "assets/images/apple_icon.svg";
 
+  /// Assets for imagesArrowSwapHorizontal
+  /// assets/images/arrow-swap-horizontal.svg
+  static const String imagesArrowSwapHorizontal = "assets/images/arrow-swap-horizontal.svg";
+
+  /// Assets for imagesBKGCirccle
+  /// assets/images/BKG_circcle.svg
+  static const String imagesBKGCirccle = "assets/images/BKG_circcle.svg";
+
   /// Assets for imagesBkgroundOffer
   /// assets/images/bkground_offer.svg
   static const String imagesBkgroundOffer = "assets/images/bkground_offer.svg";
@@ -22,9 +30,17 @@ class AppAssets {
   /// assets/images/bkground_onbording_2.svg
   static const String imagesBkgroundOnbording2 = "assets/images/bkground_onbording_2.svg";
 
+  /// Assets for imagesCaloriesIcon
+  /// assets/images/calories_icon.svg
+  static const String imagesCaloriesIcon = "assets/images/calories_icon.svg";
+
   /// Assets for imagesCircles
   /// assets/images/circles.svg
   static const String imagesCircles = "assets/images/circles.svg";
+
+  /// Assets for imagesExpireIcon
+  /// assets/images/expire_icon.svg
+  static const String imagesExpireIcon = "assets/images/expire_icon.svg";
 
   /// Assets for imagesFacebookIcon
   /// assets/images/facebook_icon.svg
@@ -78,6 +94,10 @@ class AppAssets {
   /// assets/images/offer_image.png
   static const String imagesOfferImage = "assets/images/offer_image.png";
 
+  /// Assets for imagesOrganicIcon
+  /// assets/images/organic_icon.svg
+  static const String imagesOrganicIcon = "assets/images/organic_icon.svg";
+
   /// Assets for imagesPineapple
   /// assets/images/pineapple.svg
   static const String imagesPineapple = "assets/images/pineapple.svg";
@@ -89,6 +109,10 @@ class AppAssets {
   /// Assets for imagesProfileImage
   /// assets/images/profile_image.png
   static const String imagesProfileImage = "assets/images/profile_image.png";
+
+  /// Assets for imagesRateIcon
+  /// assets/images/rate_icon.svg
+  static const String imagesRateIcon = "assets/images/rate_icon.svg";
 
   /// Assets for imagesShoppingCart
   /// assets/images/shopping_cart.svg

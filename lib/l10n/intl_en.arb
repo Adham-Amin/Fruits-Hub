@@ -39,16 +39,13 @@
   "confirmNewPassword": "Confirm New Password",
   "setNewPassword": "Set New Password",
   "passwordChangedSuccess": "Password changed successfully",
-
-  "weakPassword" : "The password provided is too weak.",
-  "emailAlreadyInUse" : "The account already exists for that email.",
-  "networkFailed" : "No internet connection.",
+  "weakPassword": "The password provided is too weak.",
+  "emailAlreadyInUse": "The account already exists for that email.",
+  "networkFailed": "No internet connection.",
   "somethingWentWrong": "Something went wrong, please try again later.",
-  "required" : "Please enter",
-
-  "wrongPassword" : "Wrong password",
-  "userNotFound" : "Email not found",
-
+  "required": "Please enter",
+  "wrongPassword": "Wrong password",
+  "userNotFound": "Email not found",
   "goodMorning": "Good Morning..!",
   "userName": "Ahmed Mostafa",
   "searchHere": "Search...",
@@ -66,6 +63,18 @@
   "home": "Home",
   "cart": "Cart",
   "categories": "Categories",
-  "profile": "Profile"
-
+  "profile": "Profile",
+  "products": "Products",
+  "results": "Results",
+  "reviews": "Reviews",
+  "months": "Months",
+  "organic": "Organic",
+  "calories": "Calories",
+  "grams": "100 Grams",
+  "expiration": "Expiration",
+  "yes": "Yes",
+  "no": "No",
+  "add": "Add",
+  "remove": "Remove",
+  "AddToCart": "Add to Cart"
 }

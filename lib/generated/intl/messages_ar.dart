@@ -22,6 +22,7 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+    "add": MessageLookupByLibrary.simpleMessage("اضافة"),
     "agreeToTerms": MessageLookupByLibrary.simpleMessage(
       "أوافق على الشروط والأحكام الخاصة بنا",
     ),
@@ -30,6 +31,7 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "avocado": MessageLookupByLibrary.simpleMessage("أفوكادو"),
     "bestSelling": MessageLookupByLibrary.simpleMessage("الأكثر مبيعاً"),
+    "calories": MessageLookupByLibrary.simpleMessage("كالوري"),
     "cart": MessageLookupByLibrary.simpleMessage("السلة"),
     "categories": MessageLookupByLibrary.simpleMessage("الأقسام"),
     "codeSentTo": MessageLookupByLibrary.simpleMessage("تم إرسال الرمز إلى"),
@@ -54,8 +56,10 @@ class MessageLookup extends MessageLookupByLibrary {
     "enterPhoneToReset": MessageLookupByLibrary.simpleMessage(
       "لا تقلق ، ما عليك سوى كتابة رقم هاتفك وسنرسل رمز التحقق.",
     ),
+    "expiration": MessageLookupByLibrary.simpleMessage("الصلاحية"),
     "forgotPassword": MessageLookupByLibrary.simpleMessage("نسيت كلمة المرور؟"),
     "goodMorning": MessageLookupByLibrary.simpleMessage("صباح الخير..!"),
+    "grams": MessageLookupByLibrary.simpleMessage("100 جرام"),
     "home": MessageLookupByLibrary.simpleMessage("الرئيسية"),
     "kilo": MessageLookupByLibrary.simpleMessage("/ الكيلو"),
     "login": MessageLookupByLibrary.simpleMessage("تسجيل دخول"),
@@ -68,6 +72,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "loginWithGoogle": MessageLookupByLibrary.simpleMessage(
       "تسجيل بواسطة جوجل",
     ),
+    "months": MessageLookupByLibrary.simpleMessage("شهور"),
     "more": MessageLookupByLibrary.simpleMessage("المزيد"),
     "name": MessageLookupByLibrary.simpleMessage("الاسم الكامل"),
     "networkFailed": MessageLookupByLibrary.simpleMessage(
@@ -75,6 +80,7 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "newPassword": MessageLookupByLibrary.simpleMessage("كلمة المرور الجديدة"),
     "newPasswordTitle": MessageLookupByLibrary.simpleMessage("كلمة مرور جديدة"),
+    "no": MessageLookupByLibrary.simpleMessage("لا"),
     "noAccount": MessageLookupByLibrary.simpleMessage("لا تملك حساب؟"),
     "offers": MessageLookupByLibrary.simpleMessage("عروض العيد"),
     "onboarding1Description": MessageLookupByLibrary.simpleMessage(
@@ -90,18 +96,22 @@ class MessageLookup extends MessageLookupByLibrary {
     "onboarding2Start": MessageLookupByLibrary.simpleMessage("ابدأ الآن"),
     "onboarding2Title": MessageLookupByLibrary.simpleMessage("ابحث وتسوق"),
     "or": MessageLookupByLibrary.simpleMessage("أو"),
+    "organic": MessageLookupByLibrary.simpleMessage("اوجانيك"),
     "password": MessageLookupByLibrary.simpleMessage("كلمة المرور"),
     "passwordChangedSuccess": MessageLookupByLibrary.simpleMessage(
       "تم تغيير كلمة المرور بنجاح",
     ),
     "pineapple": MessageLookupByLibrary.simpleMessage("أناناس"),
     "price": MessageLookupByLibrary.simpleMessage("جنية"),
+    "products": MessageLookupByLibrary.simpleMessage("المنتجات"),
     "profile": MessageLookupByLibrary.simpleMessage("الملف الشخصي"),
+    "remove": MessageLookupByLibrary.simpleMessage("حذف"),
     "required": MessageLookupByLibrary.simpleMessage("يرجى ادخال"),
     "resendCode": MessageLookupByLibrary.simpleMessage("إعادة إرسال الرمز"),
     "resetPasswordTitle": MessageLookupByLibrary.simpleMessage(
       "استعادة كلمة المرور",
     ),
+    "results": MessageLookupByLibrary.simpleMessage("نتائج"),
     "searchHere": MessageLookupByLibrary.simpleMessage("ابحث عن..."),
     "sendCode": MessageLookupByLibrary.simpleMessage("إرسال رمز التحقق"),
     "setNewPassword": MessageLookupByLibrary.simpleMessage(
@@ -127,5 +137,6 @@ class MessageLookup extends MessageLookupByLibrary {
     "wrongPassword": MessageLookupByLibrary.simpleMessage(
       "كلمة المرور غير صحيحة",
     ),
+    "yes": MessageLookupByLibrary.simpleMessage("نعم"),
   };
 }
